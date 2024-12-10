@@ -6,8 +6,12 @@ function checkIfInput() {
 
     function alertNoInput() {
         const input = document.getElementById("text-input");
+        const result = document.getElementById("result");
         if (input.value === "") {
             alert("Please input a value");
+        }
+        if (input.value.toLowerCase() === "a") {
+            result.innerText = "A is a palindrome";
         }
     }
 }
