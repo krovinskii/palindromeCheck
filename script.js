@@ -13,7 +13,7 @@ function palindromeCheck(str) {
 }
 
 function masterFunction() {
-    const input = document.getElementById("text-input");
+    const input = document.getElementById("text-input");        result.style.color = "green";  
     const result = document.getElementById("result");
 
     if (input.value === "") {
